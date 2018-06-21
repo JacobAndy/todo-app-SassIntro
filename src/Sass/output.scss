@@ -1,0 +1,14 @@
+.color {
+  color: green;
+}
+.btn {
+  color: blue;
+
+  border-radius: 10px;
+  &.btn-primary {
+    background-color: grey;
+  }
+  &:disabled {
+    opacity: 0.5;
+  }
+}

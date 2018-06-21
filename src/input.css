@@ -1,0 +1,12 @@
+.color {
+  color: green; }
+
+.btn {
+  color: blue;
+  border-radius: 10px; }
+  .btn.btn-primary {
+    background-color: grey; }
+  .btn:disabled {
+    opacity: 0.5; }
+
+/*# sourceMappingURL=input.css.map */

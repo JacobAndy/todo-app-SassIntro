@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./App.css";
+import "./input.css";
 import Daily from "./Daily/Daily";
 
 class App extends Component {
