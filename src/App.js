@@ -5,7 +5,7 @@ import Daily from "./Daily/Daily";
 class App extends Component {
   render() {
     return (
-      <main>
+      <main id="tasks">
         <Daily name="Important" />
         <Daily name="Daily" />
         <Daily name="Weekly" />

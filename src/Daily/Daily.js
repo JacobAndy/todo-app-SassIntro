@@ -15,7 +15,7 @@ class Daily extends Component {
       </p>
     ));
     return (
-      <div>
+      <div className="holder inner">
         <h2 className="color">{name}</h2>
         <input
           value={inputTask}
