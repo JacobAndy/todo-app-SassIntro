@@ -1,0 +1,19 @@
+@mixin range-track() {
+  &::-webkit-slider-runnable-track {
+    @content;
+  }
+  &::-moz-range-track {
+    @content;
+  }
+}
+
+@mixin slider-thumb() {
+  &::-webkit-slider-thumb {
+    @content;
+    -webkit-appearance: none;
+    margin-top: -14px;
+  }
+  &::-moz-range-thumb {
+    @content;
+  }
+}
